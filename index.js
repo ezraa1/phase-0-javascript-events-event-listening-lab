@@ -1,4 +1,7 @@
-function addingEventListener() {
-    const input = document.querySelector('#input');
-    input.addEventListener('input', ()=>console.log('input has started'))
+function addingEventListener(){
+const input = document.getElementById('input');
+function clickAlert() {
+  alert('I was clicked!');
+}
+input.addEventListener('click', clickAlert);
 }
